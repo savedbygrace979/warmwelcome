@@ -56,7 +56,7 @@ final public class main extends JavaPlugin {
 
                       //update the list.
                       a.add(player.getDisplayName());
-                      getConfig().set("players", a.toString());
+                      getConfig().set("players", a.toArray());
                       saveConfig();
                       reloadConfig();
                       a.clear();

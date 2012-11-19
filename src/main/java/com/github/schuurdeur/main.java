@@ -34,7 +34,7 @@ final public class main extends JavaPlugin {
                    //check users
                    Player player = event.getPlayer();
 
-                   if(!getConfig().getStringList("players").isEmpty() && a.contains(player.getDisplayName())) {
+                   if(a.contains(player.getDisplayName())) {
                        //if player is in the list
                        player.sendMessage("Welcome back, " + player.getDisplayName() + "!");
                    } else {

@@ -1,5 +1,6 @@
 package com.github.schuurdeur;
 
+import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -36,9 +37,10 @@ final public class main extends JavaPlugin {
 
                    if(a.contains(player.getDisplayName())) {
                        //if player is in the list
-                       player.sendMessage("Welcome back, " + player.getDisplayName() + "!");
+                       player.sendMessage(ChatColor.RED + "[Warm Welcome] Welcome back, " + player.getDisplayName() + "!");
                    } else {
-                      player.sendMessage("Welcome to our server " + player.getDisplayName() + " !");
+                      player.sendMessage(ChatColor.RED + "[Warm Welcome] Welcome to our server " + player.getDisplayName() +
+                                         " ! I hope you will enjoy my present.");
                        //update inventory
                        Inventory playerInventory = player.getInventory();
 

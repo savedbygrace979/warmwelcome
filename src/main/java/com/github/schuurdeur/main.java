@@ -49,6 +49,7 @@ final public class main extends JavaPlugin {
                        playerInventory.addItem(new ItemStack(Material.WOOD_PICKAXE, 1));
                        playerInventory.addItem(new ItemStack(Material.WOOD_SWORD, 1));
                        playerInventory.addItem(new ItemStack(Material.WOOD_HOE,1));
+                       playerInventory.addItem(new ItemStack(Material.WOOD_SPADE,1));
 
                        //basic armor
                        playerInventory.addItem(new ItemStack(Material.LEATHER_BOOTS, 1));

@@ -58,7 +58,9 @@ final public class main extends JavaPlugin {
                        playerInventory.addItem(new ItemStack(Material.LEATHER_LEGGINGS, 1));
 
                       //update the list.
-                      a.add(player.getDisplayName());
+                       if(!a.contains(player.getDisplayName())) {
+                           a.add(player.getDisplayName());
+                       }
                       getConfig().set("players", a.toArray());
                       saveConfig();
                       reloadConfig();

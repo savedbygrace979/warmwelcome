@@ -1,4 +1,4 @@
-Its basicly a plugin that gives new players a welcome to the server present. Or if you use it in PvP you van give users a one time tool kit of useful stuff. After the user is joined she/she gets the basic tools and a entry will be made in the config.yml so that the user get a nice message welcome back {user}
+Its basicly a plugin that gives new players a welcome to the server present. Or if you use it in PvP you can give users a one time tool kit of useful stuff. Plugin implements file checking for player.dat in the default world folder created by Bukkit when the player first joins the server. If the player.dat file does not exist they get a new player welcome message and the gift below before the player.dat is created. The next time they login to the server they will get a welcome back message and no gift.
 
 Configured items now
 =========
@@ -16,12 +16,17 @@ The main configuration contains
 =========
 
 Enable or Disable
-Players array that contains the old players, so that he/she cannot get every time at join the welcomes package!
+New Player welcome prefix & suffix messages (prefix is appended to the player message before the username & suffix is appended after the username in the welcome message.)
 
-Are there any command?
+Old Player welcome prefix & suffix messages (prefix is appended to the player message before the username & suffix is appended after the username in the welcome message.)
+
+Commands
 =========
 Not yet!
-If you have any suggestions please let me know :) I`m building this for learning purposes and get familliar with Java and Bukkit developing.
+Coming Soon:
+an enable/disable command
+gift enable/disable command
+gift kit set commands
 
 Bugs
 =========
@@ -32,4 +37,4 @@ TODO
 
 Create a config entry that contains the items that te users can get.
 A command that can enable of disable the plugin with out editing the config.yml over and over.
-Creating command to at items to the config file.
+Creating command to add items to the config file.

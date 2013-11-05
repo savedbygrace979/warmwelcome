@@ -1,4 +1,14 @@
 enabled: true
 players:
 
+
+# This is the text that is displayed to the player before & after their username in the welcome
+# message on the first time they join the server.
+NewPlayer Welcome Prefix: "Welcome to the server"
+NewPlayer Welcome Suffix: ", here's a few items to get you started!"
+
+# This is the text that is displayed to the player before & after their username in the welcome
+# message when they log back onto the server.
+OldPlayer Welcome Prefix: "Welcome back"
+OldPlayer Welcome Suffix: "!"
 items:
